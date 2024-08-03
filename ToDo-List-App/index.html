@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To-Do List</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+  <div class="bg-white p-6 rounded-lg shadow-lg w-3/5">
+    <h1 class="text-2xl font-bold mb-4 text-center">My To-Do List</h1>
+
+    <div class="mb-4">
+      <input type="text" id="new-task" placeholder="Add a new task..."
+        class="w-full p-2 border border-gray-300 rounded mb-2">
+      <button id="add-task" class="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600">Add Task</button>
+    </div>
+
+    <ul id="task-list" class="task-list list-none p-0">
+    </ul>
+  </div>
+
+  <script>
+    const taskList = document.getElementById('task-list');
+    const newTask = document.getElementById('new-task');
+    const addButton = document.getElementById('add-task');
+
+    addButton.addEventListener('click', () => {
+      const taskText = newTask.value.trim();
+      if (taskText !== "") {
+        addTask(taskText);
+        newTask.value = "";
+      }
+    });
+
+    function addTask(text) {
+      const newTask = document.createElement('li');
+      newTask.className = "bg-gray-200 p-2 rounded mb-2 flex justify-between items-center hover:bg-gray-300";
+
+      const taskText = document.createElement('span');
+      taskText.textContent = text;
+
+      const editButton = document.createElement('button');
+      editButton.textContent = "Edit";
+      editButton.className = "bg-blue-500 text-white p-1 rounded hover:bg-blue-600";
+      editButton.addEventListener('click', () => {
+        const newText = prompt("Edit your task:", taskText.textContent);
+        if (newText !== null && newText.trim() !== "") {
+          taskText.textContent = newText.trim();
+        }
+      });
+
+      const removeButton = document.createElement('button');
+      removeButton.textContent = "X";
+      removeButton.className = "bg-red-500 text-white p-1 rounded hover:bg-red-600";
+      removeButton.addEventListener('click', () => {
+        taskList.removeChild(newTask);
+      });
+
+      newTask.appendChild(taskText);
+      newTask.appendChild(editButton);
+      newTask.appendChild(removeButton);
+      taskList.appendChild(newTask);
+    }
+  </script>
+
+</body>
+
+</html>
