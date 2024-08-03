@@ -4,9 +4,19 @@ This is a simple to-do list application built with HTML, Tailwind CSS, and JavaS
 
 ## Features
 
-- Add new tasks to the list
-- Remove tasks from the list
-- Responsive design using Tailwind CSS
+### Add new tasks to the list
+
+![Home](https://dolphinmulugeta.me/images/todoApp/Home.png)
+![Add Task](https://dolphinmulugeta.me/images/todoApp/AddTask.png)
+![Task Added](https://dolphinmulugeta.me/images/todoApp/TaskAdded.png)
+![Task Added](https://dolphinmulugeta.me/images/todoApp/TaskAdded2.png)
+
+### Edit tasks
+  ![Edit Task](https://dolphinmulugeta.me/images/todoApp/EditTask.png)
+  ![Enter Task](https://dolphinmulugeta.me/images/todoApp/EnterTaskEdit.png)
+  ![Task Edited](https://dolphinmulugeta.me/images/todoApp/TaskEdited.png)
+### Remove tasks from the list
+  ![Remove Task](https://dolphinmulugeta.me/images/todoApp/RemoveTask.png)
 
 ## Getting Started
 
