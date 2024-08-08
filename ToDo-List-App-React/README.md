@@ -6,22 +6,22 @@ This is a simple to-do list application built with HTML, Tailwind CSS, and JavaS
 
 ### Add new tasks to the list
 
-![Home](https://dolphinmulugeta.me/images/toDoReact/blank.png)
-![Add Task](https://dolphinmulugeta.me/images/toDoReact/AddTask1.png)
-![Add Task](https://dolphinmulugeta.me/images/toDoReact/AddTask2.png)
+![Home](https://dolphinmulugeta.me/image/toDoReact/blank.png)
+![Add Task](https://dolphinmulugeta.me/image/toDoReact/AddTask1.png)
+![Add Task](https://dolphinmulugeta.me/image/toDoReact/AddTask2.png)
 
 ### Edit tasks
 
-![Edit Task](https://dolphinmulugeta.me/images/toDoReact/EditTask1.png)
-![Edit Task](https://dolphinmulugeta.me/images/toDoReact/EditTask2.png)
+![Edit Task](https://dolphinmulugeta.me/image/toDoReact/EditTask1.png)
+![Edit Task](https://dolphinmulugeta.me/image/toDoReact/EditTask2.png)
 
 ### Save edited tasks
 
-![Save Edit Task](https://dolphinmulugeta.me/images/toDoReact/EditTaskSave.png)
+![Save Edit Task](https://dolphinmulugeta.me/image/toDoReact/EditTaskSave.png)
 
 ### Remove tasks from the list
 
-![Delete Task](https://dolphinmulugeta.me/images/toDoReact/DeleteTAsk.png)
+![Delete Task](https://dolphinmulugeta.me/image/toDoReact/DeleteTAsk.png)
 
 ## Getting Started
 

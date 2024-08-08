@@ -1,10 +1,13 @@
 # Testing out APIs
 
 ## Testing `posts` endpoint
-![Posts](https://dolphinmulugeta.me/images/thunder/posts.png)
+
+![Posts](https://dolphinmulugeta.me/image/thunder/posts.png)
 
 ## Testing `posts` endpoint with `id`
-![Posts Id](https://dolphinmulugeta.me/images/thunder/posts_id.png)
+
+![Posts Id](https://dolphinmulugeta.me/image/thunder/posts_id.png)
 
 ## Testing `posts` endpoint with `userId`
-![Posts UserId](https://dolphinmulugeta.me/images/thunder/posts_userid.png)
+
+![Posts UserId](https://dolphinmulugeta.me/image/thunder/posts_userid.png)

@@ -63,41 +63,41 @@ This Contact Form Application is a simple React-based web application that allow
 
 ### Blank Page
 
-![Blank Page](https://dododoyo.github.io/images/ContactForm/Start.png)
+![Blank Page](https://dododoyo.github.io/image/ContactForm/Start.png)
 
 ### Blank Page with DevTools
 
-![Blank Page](https://dododoyo.github.io/images/ContactForm/DevBlank.png)
+![Blank Page](https://dododoyo.github.io/image/ContactForm/DevBlank.png)
 
 ### Add Name
 
-![Add Name](https://dododoyo.github.io/images/ContactForm/DevName.png)
+![Add Name](https://dododoyo.github.io/image/ContactForm/DevName.png)
 
 ### Add Email
 
-![Add Email](https://dododoyo.github.io/images/ContactForm/DevEmail.png)
+![Add Email](https://dododoyo.github.io/image/ContactForm/DevEmail.png)
 
 ### Add Full Data
 
-![Add Full Data](https://dododoyo.github.io/images/ContactForm/DevFull.png)
+![Add Full Data](https://dododoyo.github.io/image/ContactForm/DevFull.png)
 
 ### `TESTING FEATURES`
 
 ### Name Error
 
-![Name Error Image](https://dododoyo.github.io/images/ContactForm/nameError.png)
+![Name Error Image](https://dododoyo.github.io/image/ContactForm/nameError.png)
 
 ### Email Error
 
-![Message Error Image](https://dododoyo.github.io/images/ContactForm/emailError.png)
+![Message Error Image](https://dododoyo.github.io/image/ContactForm/emailError.png)
 
 ### Message Error
 
-![Message Error Image](https://dododoyo.github.io/images/ContactForm/messageError.png)
+![Message Error Image](https://dododoyo.github.io/image/ContactForm/messageError.png)
 
 ### `SUBMISSION`
 
-![Submission Image](https://dododoyo.github.io/images/ContactForm/FormSubmission.png)
+![Submission Image](https://dododoyo.github.io/image/ContactForm/FormSubmission.png)
 
 ## Acknowledgements
 

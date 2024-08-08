@@ -6,17 +6,20 @@ This is a simple to-do list application built with HTML, Tailwind CSS, and JavaS
 
 ### Add new tasks to the list
 
-![Home](https://dolphinmulugeta.me/images/todoApp/Home.png)
-![Add Task](https://dolphinmulugeta.me/images/todoApp/AddTask.png)
-![Task Added](https://dolphinmulugeta.me/images/todoApp/TaskAdded.png)
-![Task Added](https://dolphinmulugeta.me/images/todoApp/TaskAdded2.png)
+![Home](https://dolphinmulugeta.me/image/todoApp/Home.png)
+![Add Task](https://dolphinmulugeta.me/image/todoApp/AddTask.png)
+![Task Added](https://dolphinmulugeta.me/image/todoApp/TaskAdded.png)
+![Task Added](https://dolphinmulugeta.me/image/todoApp/TaskAdded2.png)
 
 ### Edit tasks
-  ![Edit Task](https://dolphinmulugeta.me/images/todoApp/EditTask.png)
-  ![Enter Task](https://dolphinmulugeta.me/images/todoApp/EnterTaskEdit.png)
-  ![Task Edited](https://dolphinmulugeta.me/images/todoApp/TaskEdited.png)
+
+![Edit Task](https://dolphinmulugeta.me/image/todoApp/EditTask.png)
+![Enter Task](https://dolphinmulugeta.me/image/todoApp/EnterTaskEdit.png)
+![Task Edited](https://dolphinmulugeta.me/image/todoApp/TaskEdited.png)
+
 ### Remove tasks from the list
-  ![Remove Task](https://dolphinmulugeta.me/images/todoApp/RemoveTask.png)
+
+![Remove Task](https://dolphinmulugeta.me/image/todoApp/RemoveTask.png)
 
 ## Getting Started
 
