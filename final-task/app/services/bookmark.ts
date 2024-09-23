@@ -1,7 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { getServerSession } from "next-auth";
-import { options } from "../api/auth/[...nextauth]/options";
-
+// import { getServerSession } from "next-auth";
+// import { options } from "../api/auth/[...nextauth]/options";
 const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
 
 if (!SERVER_URL) throw Error("SERVER_URL is undefined");
