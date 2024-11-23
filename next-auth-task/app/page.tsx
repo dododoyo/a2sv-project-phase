@@ -10,7 +10,6 @@ const Page: React.FC = () => {
       redirect("/login");
     },
   });
-
   if (session) {
     const { role } = session.user;
     if (role === "unverified") {

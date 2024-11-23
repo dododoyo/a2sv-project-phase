@@ -13,6 +13,7 @@ if (!GOOGLE_SECRET) throw Error("GOOGLE_SECRET is undefined");
 const Google = GoogleProvider({
   profile(profile) {
     let userRole = "user";
+    
     try {
       return {
         ...profile,
@@ -20,6 +21,7 @@ const Google = GoogleProvider({
         role: userRole,
       };
     } catch (error) {
+      console.log("here")
       return {
         id: "",
         role: userRole,

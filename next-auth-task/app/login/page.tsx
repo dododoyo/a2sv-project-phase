@@ -12,6 +12,7 @@ import {
   updateErrorMessage,
   updateRole,
 } from "@/app/features/auth/authSlice";
+import GoogleSignInButton from "@/components/GoogleSignInButton";
 
 const Login: React.FC = () => {
   const {
@@ -162,6 +163,8 @@ const Login: React.FC = () => {
             {isLoading ? "Loading . . ." : "Login"}
           </button>
         </form>
+
+        <GoogleSignInButton/>
         {/* {errors.email && "message" in errors.email && (
           <p className="text-red-500 text-xs italic mt-2">
             {errors?.email?.message?.toString()}
