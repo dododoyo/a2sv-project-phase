@@ -18,7 +18,7 @@ const ContactForm: React.FC = () => {
 
   const onSubmit = (data: FormData) => {
     alert("Form Data Submitted");
-    console.log(data);
+    // console.log(data);
   };
 
   return (
