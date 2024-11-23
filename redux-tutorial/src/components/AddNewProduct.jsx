@@ -6,6 +6,7 @@ const AddNewProduct = () => {
   if (error) {
     return <h1>Something Went Wrong, Try Again !</h1>;
   }
+  
   if (isLoading) {
     return <h1>Loading . . . </h1>;
   }
